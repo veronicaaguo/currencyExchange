@@ -1,0 +1,62 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+  
+.coinbag {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(coinbag1.png);
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  width: 300px;
+  height: 400px;
+  background-size: cover;
+  background-position: center;  
+}
+
+#currency-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.currency-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.currency-row label, .currency-row select {
+  margin: 5px;
+}
+
+.results {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
+#amount, #from-currency, #to-currency, #convert {
+  margin: 5px;
+  padding: 7px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 100px;
+}
+
+#result {
+  margin-top: 20px;
+}  

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Currency Exchange Widget</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+<div>
+  <div class="coinbag">
+    <input type="number" id="amount" placeholder="Enter amount"> <br>
+
+    <div id="currency-form">
+      <div class="currency-row">
+        <label for="from-currency">From</label>
+        <select id="from-currency">
+          <option value="USD">🇺🇸 USD</option>
+          <option value="HKD">🇭🇰 HKD</option>
+          <option value="EUR">🇪🇺 EUR</option>
+        </select>
+      </div>
+
+      <div class="currency-form">
+        <label for="to-currency">To</label>
+        <select id="to-currency">
+          <option value="USD">🇺🇸 USD</option>
+          <option value="HKD">🇭🇰 HKD</option>
+          <option value="EUR">🇪🇺 EUR</option>
+        </select>
+      </div>
+    </div>
+  </div>
+
+  <div class="results">
+    <button id="convert">Convert</button>
+    <div id="result-text" style="display: none;">You have $0.00!</div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
